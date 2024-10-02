@@ -1,0 +1,13 @@
+CREATE TABLE perfil (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100),
+    pais VARCHAR(50),
+    numero VARCHAR(20),
+    correo VARCHAR(100),
+    direccion VARCHAR(100),
+    email VARCHAR(100),
+    experiencia TEXT,
+    formacion TEXT,
+    idiomas TEXT,
+    aptitudes_habilidades TEXT
+);
